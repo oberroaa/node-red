@@ -2,7 +2,12 @@
     "name": "911_node-red",
     "description": "Estudiando node red",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "@flowfuse/node-red-dashboard-2-ui-led": "1.0.0",
+        "node-red-contrib-telegrambot": "16.1.0",
+        "node-red-contrib-whatsapp-cmb": "1.0.3",
+        "node-red-node-email": "3.0.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",

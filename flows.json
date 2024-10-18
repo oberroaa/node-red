@@ -3410,5 +3410,70 @@
                 "de0a4602d57e7f06"
             ]
         ]
+    },
+    {
+        "id": "2ac25f2977d08789",
+        "type": "inject",
+        "z": "f3276185a9eab6e5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "c8e4faa8f8f1d5f0"
+            ]
+        ]
+    },
+    {
+        "id": "c8e4faa8f8f1d5f0",
+        "type": "function",
+        "z": "f3276185a9eab6e5",
+        "name": "function 18",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 160,
+        "wires": [
+            [
+                "e619e325e1c117e4"
+            ]
+        ]
+    },
+    {
+        "id": "e619e325e1c117e4",
+        "type": "debug",
+        "z": "f3276185a9eab6e5",
+        "name": "debug 95",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 160,
+        "wires": []
     }
 ]
